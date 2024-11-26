@@ -1,0 +1,27 @@
+{
+	"name": "alienworldsbot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "tsx ./src/test.ts",
+		"createSession": "tsx ./src/createSession.ts",
+		"mine": "tsx ./src/index.ts"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"concurrently": "^9.1.0",
+		"esbuild": "^0.24.0",
+		"nodemon": "^3.1.7",
+		"typescript": "^5.7.2"
+	},
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"puppeteer": "^23.9.0",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-recaptcha": "^3.6.8",
+		"puppeteer-extra-plugin-stealth": "^2.11.2",
+		"tsx": "^4.19.2"
+	}
+}
